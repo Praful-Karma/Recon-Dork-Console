@@ -1,0 +1,51 @@
+ENV Files|site:{target} ext:env|Find exposed environment configuration files.
+SQL Dumps|site:{target} ext:sql|Find exposed SQL dump files.
+Open Directories|site:{target} intitle:"index of"|Discover open directory listings.
+Admin Panels|site:{target} inurl:admin|Locate admin login panels.
+Git Exposure|site:{target} ".git"|Search for exposed Git repositories.
+Log Files|site:{target} ext:log|Find publicly accessible log files.
+Backup Files|site:{target} ext:bak OR ext:old OR ext:backup|Search for backup files.
+API Docs|site:{target} inurl:swagger OR inurl:api-docs|Locate exposed API documentation.
+PDF Documents|site:{target} ext:pdf|Find publicly accessible PDF documents.
+Excel Files|site:{target} ext:xlsx OR ext:xls|Find exposed Excel spreadsheets.
+Word Documents|site:{target} ext:docx OR ext:doc|Find exposed Word documents.
+Config Files|site:{target} ext:conf OR ext:config|Locate configuration files.
+Apache Status|site:{target} inurl:server-status|Search for Apache server status pages.
+Jenkins Panels|site:{target} inurl:jenkins|Locate Jenkins dashboards.
+Grafana Dashboards|site:{target} inurl:grafana|Search for Grafana instances.
+Kibana Panels|site:{target} inurl:kibana|Locate Kibana dashboards.
+PHP Info|site:{target} ext:php intitle:phpinfo|Find exposed phpinfo pages.
+Database Files|site:{target} ext:db OR ext:sqlite|Search for database files.
+Docker Files|site:{target} filename:docker-compose.yml|Find exposed Docker compose files.
+YAML Files|site:{target} ext:yml OR ext:yaml|Locate YAML configuration files.
+JSON Files|site:{target} ext:json|Find JSON files.
+XML Files|site:{target} ext:xml|Locate XML files.
+Robots.txt|site:{target} robots.txt|Inspect robots.txt entries.
+Sitemap Files|site:{target} filetype:xml sitemap|Find sitemap XML files.
+Login Pages|site:{target} inurl:login|Locate login portals.
+Signup Pages|site:{target} inurl:register OR inurl:signup|Find signup pages.
+Password Reset|site:{target} inurl:forgot-password|Locate password reset functionality.
+Firebase Exposure|site:{target} firebaseio.com|Search for Firebase references.
+AWS Buckets|site:{target} s3.amazonaws.com|Find AWS S3 bucket references.
+Azure Storage|site:{target} blob.core.windows.net|Locate Azure blob storage references.
+Swagger JSON|site:{target} swagger.json|Find Swagger JSON specifications.
+GraphQL Endpoints|site:{target} inurl:graphql|Locate GraphQL endpoints.
+API Keys|site:{target} "api_key"|Search for exposed API keys references.
+JWT Tokens|site:{target} "jwt"|Search for JWT token references.
+Debug Pages|site:{target} inurl:debug|Locate debug pages.
+Error Logs|site:{target} "stack trace"|Search for stack traces.
+Test Environments|site:{target} inurl:test|Locate test environments.
+Staging Environments|site:{target} inurl:staging|Locate staging environments.
+Dev Environments|site:{target} inurl:dev|Locate development environments.
+Webcams|site:{target} inurl:view/view.shtml|Search for webcam interfaces.
+Hikvision Panels|site:{target} intitle:"Hikvision"|Locate Hikvision interfaces.
+Dahua Panels|site:{target} intitle:"Dahua"|Locate Dahua interfaces.
+phpMyAdmin|site:{target} inurl:phpmyadmin|Locate phpMyAdmin panels.
+CPanel|site:{target} inurl:cpanel|Locate cPanel logins.
+Webmail|site:{target} inurl:webmail|Find webmail portals.
+Open Redirects|site:{target} inurl:url=|Potential open redirect patterns.
+Sensitive Keywords|site:{target} "password" OR "secret" OR "token"|Search for sensitive keywords.
+GitLab|site:{target} inurl:gitlab|Locate GitLab instances.
+Confluence|site:{target} inurl:confluence|Locate Confluence portals.
+Jira|site:{target} inurl:jira|Locate Jira dashboards.
+VPN Portals|site:{target} inurl:vpn|Find VPN login portals.

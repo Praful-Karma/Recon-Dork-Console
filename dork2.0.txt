@@ -1,0 +1,24 @@
+Sensitive Files|ENV Files|site:{target} ext:env|Find exposed environment configuration files.
+Sensitive Files|SQL Dumps|site:{target} ext:sql|Find exposed SQL dump files.
+Sensitive Files|Log Files|site:{target} ext:log|Find exposed log files.
+Sensitive Files|Backup Files|site:{target} ext:bak OR ext:old|Search for backup files.
+
+Admin Panels|Admin Login|site:{target} inurl:admin|Locate admin panels.
+Admin Panels|Dashboard|site:{target} inurl:dashboard|Locate dashboards.
+Admin Panels|phpMyAdmin|site:{target} inurl:phpmyadmin|Locate phpMyAdmin panels.
+
+APIs|Swagger|site:{target} inurl:swagger|Locate Swagger documentation.
+APIs|GraphQL|site:{target} inurl:graphql|Locate GraphQL endpoints.
+APIs|API Docs|site:{target} inurl:api-docs|Find API documentation.
+
+Cloud|AWS Buckets|site:{target} s3.amazonaws.com|Search for AWS bucket references.
+Cloud|Azure Storage|site:{target} blob.core.windows.net|Locate Azure storage references.
+Cloud|Firebase|site:{target} firebaseio.com|Search Firebase references.
+
+Documents|PDF Files|site:{target} ext:pdf|Find PDF documents.
+Documents|Excel Files|site:{target} ext:xlsx OR ext:xls|Find Excel files.
+Documents|Word Docs|site:{target} ext:docx OR ext:doc|Find Word documents.
+
+Development|Git Exposure|site:{target} \".git\"|Search for exposed Git repositories.
+Development|Jenkins|site:{target} inurl:jenkins|Locate Jenkins panels.
+Development|Docker Compose|site:{target} filename:docker-compose.yml|Find Docker compose files.
